@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  background: url("https://i.pinimg.com/originals/35/f3/e9/35f3e9c4b86568b4919949a9307da2a9.png");
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+header {
+  margin-top: 2%;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.Body {
+  position: relative;
+  /* background: url("https://i.pinimg.com/originals/35/f3/e9/35f3e9c4b86568b4919949a9307da2a9.png"); */
+  border-radius: 5%;
+  margin-top: 10vh;
+  height: 80vh;
+  width: 40vw;
+  box-shadow: 5px 10px 25px 2px grey;
+}
+.footer {
+  position: relative;
+  width: 100%;
+}
+.footer > input {
+  width: 80%;
+}
+.chatbody {
+  height: 80%;
+
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+.user {
+  /* background-color: turquoise; */
+  /* width: fit-content; */
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-left: auto;
+  text-align: center;
+  background-color: rgb(50, 135, 163);
+  padding: 10px;
+  border-radius: 20rem;
+  color: white;
+}
+.bot {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: auto;
+  width: auto;
+  text-align: center;
+  background-color: rgb(50, 135, 163);
+  padding: 10px;
+  border-radius: 20rem;
+  color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+}
