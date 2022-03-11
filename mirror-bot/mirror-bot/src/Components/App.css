@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background: url("https://i.pinimg.com/originals/35/f3/e9/35f3e9c4b86568b4919949a9307da2a9.png");
+  background: url("../../public/background.png");
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -23,13 +23,28 @@ header {
 .footer {
   position: relative;
   width: 100%;
+  margin-top: 0px;
 }
 .footer > input {
-  width: 80%;
+  height: 3vh;
+  width: 70%;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  padding: 8px;
+  background-color: rgb(184, 177, 177);
+}
+.footer > button {
+  height: 4vh;
+  background-color: rgb(50, 135, 163);
+  color: white;
+  outline: none;
+  border: none;
+  margin-left: 2%;
 }
 .chatbody {
   height: 80%;
-
+  padding-bottom: 0px;
   display: flex;
   flex-direction: column;
   overflow: scroll;
@@ -47,12 +62,12 @@ header {
   color: white;
 }
 .bot {
-  margin-top: 5%;
+  margin-bottom: 5%;
   margin-left: 10%;
   margin-right: auto;
   width: auto;
   text-align: center;
-  background-color: rgb(50, 135, 163);
+  background-color: rgb(71, 92, 99);
   padding: 10px;
   border-radius: 20rem;
   color: white;

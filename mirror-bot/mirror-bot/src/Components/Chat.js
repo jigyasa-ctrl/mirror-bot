@@ -1,29 +1,16 @@
 import './App.css';
 
-function Chat() {
+function Chat({ history }) {
     return (
         <div className="chatbody">
-            <span className="user">Hello</span>
-            <span className="bot">How are you</span>
-            {/* <span className="user">Hello</span>
-            <span className="bot">How are you</span>
-            <span className="user">Hello</span>
-            <span className="bot">How are you</span>
-            <span className="user">Hello</span>
-            <span className="bot">How are you</span>
-            <span className="user">Hello</span>
-            <span className="bot">How are you</span>
-            <span className="user">Hello</span>
-            <span className="bot">How are you</span>
-            <span className="user">Hello</span>
-            <span className="bot">How are you</span>
-            <span className="user">Hello</span>
-            <span className="bot">How are you</span>
-            <span className="user">Hello</span>
-            <span className="bot">How are you</span> */}
+            { history && history.length > 0 && history.map((chat) => (
+                <>
+                    <span className="user">{chat}</span>
+                    <span className="bot">{chat}</span>
+                </>
+            ))
 
-
-
+            }
         </div>
     );
 }
