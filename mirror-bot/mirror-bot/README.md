@@ -2,7 +2,7 @@
 
 Live Demo : https://mirrorrr-bot.netlify.app/
 
-Steps to run -
+Steps to run
 
 1. npm install
 2. npm start
